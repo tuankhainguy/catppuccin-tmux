@@ -394,6 +394,7 @@ main() {
 
   setw window-status-format "$window_format"
   setw window-status-current-format "$window_current_format"
+  setw window-status-current-style fg=default,bg=default
 
   local status_left_separator=$(get_tmux_option "@catppuccin_status_left_separator" "")
   local status_right_separator=$(get_tmux_option "@catppuccin_status_right_separator" "█")
